@@ -1,0 +1,2 @@
+# Rapid7Nexpose
+Rapid7 Nexpose is a on-prem vulnerability management software. It allows you to define IP ranges to be port scanned for vulnerabilities. I Studied the Nexpose API and presented it to a team of security engineers. I also created a script to define IP ranges and engines in Nexpose from a csv file. and developed a program to generate a vulnerability report on a single IP address in csv format.
