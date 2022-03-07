@@ -1,10 +1,11 @@
 import sys, random, subprocess, time, base64
 
+# Using Rapid7 Nexpose API
 # Port scans a single IP Address for vulnerabilities and prints a report in csv format
 # Example: python scanIP.py ipAddress
 
 # NEED TO DEFINE SCAN ENGINES ON NEXPOSE BEFORE SCANNING IPs
-# CDK used lookup tables w/ engine IDs based on IP ranges
+# used lookup tables w/ engine IDs based on IP ranges
 engine = 1
 
 # Login Credentials
